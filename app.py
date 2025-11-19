@@ -82,6 +82,7 @@ def init_data_files():
                     "updated_at": (datetime.now() - timedelta(days=5)).isoformat(),
                     "category": "HTML"
                 },
+                
                 {
                     "id": str(uuid.uuid4()),
                     "title": "CSS Styling", 
